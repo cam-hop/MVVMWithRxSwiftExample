@@ -54,6 +54,11 @@
 		204223DC1F2246CF00D2D4C0 /* MVVMWithRxSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				204223F31F23085300D2D4C0 /* API */,
+				204223F21F23080100D2D4C0 /* ViewModels */,
+				204223F11F2307EB00D2D4C0 /* ViewControllers */,
+				204223F01F2307D400D2D4C0 /* Views */,
+				204223EF1F2307BF00D2D4C0 /* Models */,
 				204223DD1F2246CF00D2D4C0 /* AppDelegate.swift */,
 				204223DF1F2246CF00D2D4C0 /* ViewController.swift */,
 				204223E11F2246CF00D2D4C0 /* Main.storyboard */,
@@ -62,6 +67,57 @@
 				204223E91F2246CF00D2D4C0 /* Info.plist */,
 			);
 			path = MVVMWithRxSwiftExample;
+			sourceTree = "<group>";
+		};
+		204223EF1F2307BF00D2D4C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		204223F01F2307D400D2D4C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		204223F11F2307EB00D2D4C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		204223F21F23080100D2D4C0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		204223F31F23085300D2D4C0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				204223F51F23087A00D2D4C0 /* Responses */,
+				204223F41F23086700D2D4C0 /* Requests */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		204223F41F23086700D2D4C0 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		204223F51F23087A00D2D4C0 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MVVMWithRxSwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hop.MVVMWithRxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MVVMWithRxSwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hop.MVVMWithRxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

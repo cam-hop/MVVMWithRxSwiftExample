@@ -1,0 +1,15 @@
+# API and Network
+github "RxSwiftCommunity/RxAlamofire" "master"
+github "ikesyo/Himotoki" ~> 3.0
+github "cam-hop/APIUtility"
+
+# Image
+github "onevcat/Kingfisher" ~> 3.0
+
+# RxSwift
+github "ReactiveX/RxSwift"
+
+# Table Cell
+github "jerkoch/SwipeCellKit"
+
+
