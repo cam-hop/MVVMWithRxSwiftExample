@@ -12,6 +12,24 @@
 		204223E31F2246CF00D2D4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204223E11F2246CF00D2D4C0 /* Main.storyboard */; };
 		204223E51F2246CF00D2D4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204223E41F2246CF00D2D4C0 /* Assets.xcassets */; };
 		204223E81F2246CF00D2D4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204223E61F2246CF00D2D4C0 /* LaunchScreen.storyboard */; };
+		674FB4DE1F285F8A0065E410 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674FB4DB1F285F8A0065E410 /* RxCocoa.framework */; };
+		674FB4DF1F285F8A0065E410 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674FB4DC1F285F8A0065E410 /* RxSwift.framework */; };
+		674FB4E01F285F8A0065E410 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674FB4DD1F285F8A0065E410 /* Kingfisher.framework */; };
+		674FB4F11F2860390065E410 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E31F2860390065E410 /* UIViewControllerExtention.swift */; };
+		674FB4F21F2860390065E410 /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E41F2860390065E410 /* NSObjectProtocolExtension.swift */; };
+		674FB4F31F2860390065E410 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E51F2860390065E410 /* UIImageViewExtension.swift */; };
+		674FB4F41F2860390065E410 /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E61F2860390065E410 /* UIScrollView+Rx.swift */; };
+		674FB4F51F2860390065E410 /* UIStoryboardExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E71F2860390065E410 /* UIStoryboardExtention.swift */; };
+		674FB4F61F2860390065E410 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E81F2860390065E410 /* UITableViewCellExtension.swift */; };
+		674FB4F71F2860390065E410 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4E91F2860390065E410 /* UIViewExtension.swift */; };
+		674FB4F81F2860390065E410 /* CellNibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4EA1F2860390065E410 /* CellNibable.swift */; };
+		674FB4F91F2860390065E410 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4EB1F2860390065E410 /* Nibable.swift */; };
+		674FB4FA1F2860390065E410 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4EC1F2860390065E410 /* NSObject+Rx.swift */; };
+		674FB4FB1F2860390065E410 /* ReusableViewNibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4ED1F2860390065E410 /* ReusableViewNibable.swift */; };
+		674FB4FD1F2860390065E410 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4EF1F2860390065E410 /* StringExtension.swift */; };
+		674FB4FE1F2860390065E410 /* VariableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB4F01F2860390065E410 /* VariableExtension.swift */; };
+		674FB5001F28641D0065E410 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674FB4FF1F28641D0065E410 /* XCGLogger.framework */; };
+		674FB5031F2865390065E410 /* AppEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674FB5021F2865390065E410 /* AppEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		204223E41F2246CF00D2D4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204223E71F2246CF00D2D4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204223E91F2246CF00D2D4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674FB4DB1F285F8A0065E410 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		674FB4DC1F285F8A0065E410 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		674FB4DD1F285F8A0065E410 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		674FB4E31F2860390065E410 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
+		674FB4E41F2860390065E410 /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		674FB4E51F2860390065E410 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		674FB4E61F2860390065E410 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
+		674FB4E71F2860390065E410 /* UIStoryboardExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtention.swift; sourceTree = "<group>"; };
+		674FB4E81F2860390065E410 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		674FB4E91F2860390065E410 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		674FB4EA1F2860390065E410 /* CellNibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellNibable.swift; sourceTree = "<group>"; };
+		674FB4EB1F2860390065E410 /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		674FB4EC1F2860390065E410 /* NSObject+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = "<group>"; };
+		674FB4ED1F2860390065E410 /* ReusableViewNibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewNibable.swift; sourceTree = "<group>"; };
+		674FB4EF1F2860390065E410 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		674FB4F01F2860390065E410 /* VariableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableExtension.swift; sourceTree = "<group>"; };
+		674FB4FF1F28641D0065E410 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		674FB5021F2865390065E410 /* AppEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674FB5001F28641D0065E410 /* XCGLogger.framework in Frameworks */,
+				674FB4DE1F285F8A0065E410 /* RxCocoa.framework in Frameworks */,
+				674FB4DF1F285F8A0065E410 /* RxSwift.framework in Frameworks */,
+				674FB4E01F285F8A0065E410 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +80,7 @@
 			children = (
 				204223DC1F2246CF00D2D4C0 /* MVVMWithRxSwiftExample */,
 				204223DB1F2246CF00D2D4C0 /* Products */,
+				674FB4DA1F285F8A0065E410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +95,7 @@
 		204223DC1F2246CF00D2D4C0 /* MVVMWithRxSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				674FB4E11F285FAE0065E410 /* Common */,
 				204223F31F23085300D2D4C0 /* API */,
 				204223F21F23080100D2D4C0 /* ViewModels */,
 				204223F11F2307EB00D2D4C0 /* ViewControllers */,
@@ -120,6 +162,54 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
+		674FB4DA1F285F8A0065E410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				674FB4FF1F28641D0065E410 /* XCGLogger.framework */,
+				674FB4DB1F285F8A0065E410 /* RxCocoa.framework */,
+				674FB4DC1F285F8A0065E410 /* RxSwift.framework */,
+				674FB4DD1F285F8A0065E410 /* Kingfisher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		674FB4E11F285FAE0065E410 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				674FB5011F28651D0065E410 /* Enum */,
+				674FB4E21F285FFA0065E410 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		674FB4E21F285FFA0065E410 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				674FB4E31F2860390065E410 /* UIViewControllerExtention.swift */,
+				674FB4E41F2860390065E410 /* NSObjectProtocolExtension.swift */,
+				674FB4E51F2860390065E410 /* UIImageViewExtension.swift */,
+				674FB4E61F2860390065E410 /* UIScrollView+Rx.swift */,
+				674FB4E71F2860390065E410 /* UIStoryboardExtention.swift */,
+				674FB4E81F2860390065E410 /* UITableViewCellExtension.swift */,
+				674FB4E91F2860390065E410 /* UIViewExtension.swift */,
+				674FB4EA1F2860390065E410 /* CellNibable.swift */,
+				674FB4EB1F2860390065E410 /* Nibable.swift */,
+				674FB4EC1F2860390065E410 /* NSObject+Rx.swift */,
+				674FB4ED1F2860390065E410 /* ReusableViewNibable.swift */,
+				674FB4EF1F2860390065E410 /* StringExtension.swift */,
+				674FB4F01F2860390065E410 /* VariableExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		674FB5011F28651D0065E410 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				674FB5021F2865390065E410 /* AppEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +242,7 @@
 				TargetAttributes = {
 					204223D91F2246CF00D2D4C0 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -191,8 +282,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674FB4F31F2860390065E410 /* UIImageViewExtension.swift in Sources */,
+				674FB4F81F2860390065E410 /* CellNibable.swift in Sources */,
+				674FB4FD1F2860390065E410 /* StringExtension.swift in Sources */,
+				674FB4F41F2860390065E410 /* UIScrollView+Rx.swift in Sources */,
 				204223E01F2246CF00D2D4C0 /* ViewController.swift in Sources */,
+				674FB4FE1F2860390065E410 /* VariableExtension.swift in Sources */,
+				674FB4F91F2860390065E410 /* Nibable.swift in Sources */,
+				674FB4FA1F2860390065E410 /* NSObject+Rx.swift in Sources */,
+				674FB4FB1F2860390065E410 /* ReusableViewNibable.swift in Sources */,
+				674FB4F21F2860390065E410 /* NSObjectProtocolExtension.swift in Sources */,
 				204223DE1F2246CF00D2D4C0 /* AppDelegate.swift in Sources */,
+				674FB4F51F2860390065E410 /* UIStoryboardExtention.swift in Sources */,
+				674FB4F71F2860390065E410 /* UIViewExtension.swift in Sources */,
+				674FB4F11F2860390065E410 /* UIViewControllerExtention.swift in Sources */,
+				674FB5031F2865390065E410 /* AppEnum.swift in Sources */,
+				674FB4F61F2860390065E410 /* UITableViewCellExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMWithRxSwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hop.MVVMWithRxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -315,11 +425,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMWithRxSwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hop.MVVMWithRxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -342,6 +457,7 @@
 				204223EE1F2246CF00D2D4C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
